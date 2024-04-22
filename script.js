@@ -8,6 +8,6 @@ function changeTrafficLightColor() {
     light.classList.add(colorClasses[currentColorIndex]) // add the next color
 }
 
-window.setInterval(function(){
+window.setInterval(function() {
     changeTrafficLightColor();
-  }, 1e4); // change the traffic light color every 10 seconds
+    }, 1e4); // change the traffic light color every 10 seconds
